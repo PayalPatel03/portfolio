@@ -6,3 +6,10 @@
 body{
     font-family: 'jost' !important;
 }
+/* HEADER */
+.navbar{
+    background-color: #444;
+}
+.nav-link , .navbar-brand{
+    color: #BBBBBB;
+}
