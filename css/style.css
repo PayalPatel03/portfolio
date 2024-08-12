@@ -40,6 +40,8 @@ body{
  width: 20%;
  background-color: #040b14;
  height: 100vh;
+ left:0;
+    top:0;
 }
 
 /* SIDE */
@@ -71,5 +73,13 @@ body{
 
 .navmenu li i:hover{
     color: #149ddd !important;
+}
+
+/*  */
+.main-content{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
 }
 
