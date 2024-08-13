@@ -2,29 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 body{
     font-family: 'jost' !important;
-    line-height: 1.5;
-    font-size: 16px;
 }
 :root{
-    --bg-black-900:#f2f2fc;
-    --bg-black-100:#fdf9ff;
-    --bg-black-50:#e8dfec;
-    --text-black-900:#302e4d;
-    --text-black-700:#504e70;
-
-    dark-background {
-        --background-color: #040b14;
-        --default-color: #ffffff;
-        --heading-color: #ffffff;
-        --surface-color: #151f2b;
-        --contrast-color: #ffffff;
-    }
+  --sideBGcolor: #040b14;
+  --themecolor: #00a78e;
+  --iconBGcolor: #2c2f3f;
+  --textcolor: #525252;
+  --bgcolor: #f7f7f7;
 }
-.section{
+/* .section{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
@@ -42,10 +31,10 @@ body{
  height: 100vh;
  left:0;
     top:0;
-}
+} */
 
 /* SIDE */
-.side{
+/* .side{
     width: 270px;
     background: var(--bg-black-100);
     position: fixed;
@@ -74,12 +63,62 @@ body{
 .navmenu li i:hover{
     color: #149ddd !important;
 }
-
+ */
 /*  */
-.main-content{
+/* .main-content{
     height: 100%;
     width: 100%;
     overflow-x: scroll;
     position: relative;
+} */
+
+
+
+/* HEADER================== */
+.profile img{
+    width: 150px;
 }
 
+header{
+    height: 100vh;
+    width: 300px;
+    padding: 15px 30px;
+    background-color: var(--sideBGcolor);
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+    z-index: 99;
+}
+.profile .social-media a{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    line-height: 37px;
+}
+.profile .social-media a:hover{
+    background-color: var(--themecolor);
+}
+
+/* navbar */
+.navbar li a{
+    letter-spacing: 5px;
+}
+.navbar li a:hover i{
+    color: #149ddd !important;
+}
+#menubtn{
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    background-color: var(--themecolor);
+    line-height: 42px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+}
