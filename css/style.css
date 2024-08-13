@@ -13,72 +13,10 @@ body{
   --textcolor: #525252;
   --bgcolor: #f7f7f7;
 }
-/* .section{
-    background: var(--bg-black-900);
-    min-height: 100vh;
-    display: block;
-    position: fixed;
-    left: 270px;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    opacity: 1;
-}
-
-.header{
- width: 20%;
- background-color: #040b14;
- height: 100vh;
- left:0;
-    top:0;
-} */
-
-/* SIDE */
-/* .side{
-    width: 270px;
-    background: var(--bg-black-100);
-    position: fixed;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: 10;
-}
-.slide-image img{
-    height: 130px;
-    width: 130px;
-}
-.slide-logo a{
-    font-size: 16px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 2px;
-    border-radius: 50%;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    transition: 0.3s;
-}
-
-.navmenu li i:hover{
-    color: #149ddd !important;
-}
- */
-/*  */
-/* .main-content{
-    height: 100%;
-    width: 100%;
-    overflow-x: scroll;
-    position: relative;
-} */
-
-
-
 /* HEADER================== */
 .profile img{
     width: 150px;
 }
-
 header{
     height: 100vh;
     width: 300px;
@@ -101,7 +39,6 @@ header{
 .profile .social-media a:hover{
     background-color: var(--themecolor);
 }
-
 /* navbar */
 .navbar li a{
     letter-spacing: 5px;
@@ -122,3 +59,15 @@ header{
     cursor: pointer;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
 }
+/* @media only screen and (max-width:1050px){
+    header{
+        left: -300px;
+    }
+    #menubtn{
+        display: block;
+    }
+    
+} */
+ main{
+    margin-left: 300px;
+ }
