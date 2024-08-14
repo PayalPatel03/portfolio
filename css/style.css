@@ -12,3 +12,39 @@ header ul li a:hover{
 header ul li{
   padding: 15px;
 }
+/* Home-section */
+.home-section .container{
+  padding: 150px;
+}
+/* about */
+.about-image img{
+  height: 500px;
+  width: 500px;
+}
+/* .about{
+  padding: 100px;
+} */
+.shadow{
+  -webkit-text-stroke: 3px white;
+  
+  /* font-size: 15vw;
+  font-weight: 700;
+  color:black; */
+}
+.heading-section{
+  position: relative;
+}
+.heading-section h1.big {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-size: 7vw;
+  color: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+  font-weight: 900;
+}
+ ul.about-info li span:first-child {
+  font-weight: 600;
+  color: #fff;
+  width: 130px;
+}
