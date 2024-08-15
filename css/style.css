@@ -59,7 +59,6 @@ header ul li{
   position: absolute;
   top: -10px;
   left: 450px;
-  
   font-size: 7vw;
   color: rgba(255, 255, 255, 0.1);
   z-index: -1;
@@ -67,4 +66,43 @@ header ul li{
 }
 .resume-title{
   position: relative;
+}
+.col-12 .resume-items:hover{
+  background: #ffbd39 !important;
+   transform: translateY(-10px);
+  transition: 0.2s;
+}
+.resume-items:hover .text-warning{
+  color: white !important;
+}
+.resume-items:hover .text-white{
+  color: black !important;
+}
+/* contact */
+.contact{
+  padding: 80px;
+}
+.contact-title .shadow-re{
+  -webkit-text-stroke: 3px white;
+}
+.contact-title .big{
+  position: absolute;
+  top: -10px;
+  left: 450px;
+  font-size: 7vw;
+  color: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+  font-weight: 900;
+}
+.contact-title{
+  position: relative;
+}
+.contact-icons i{
+  height: 20px;
+  width: 20px;
+  color: #ffbd39 !important;
+  border-radius: 50%;
+}
+.contact-icons:hover i{
+  background: rgb(10, 17, 1);
 }
