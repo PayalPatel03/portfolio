@@ -13,9 +13,9 @@ header ul li{
   padding: 15px;
 }
 /* Home-section */
-/* .home-section .container{
+.home-section .container{
   padding: 150px;
-} */
+}
 /* about */
 .about-image img{
   height: 600px;
@@ -26,7 +26,6 @@ header ul li{
 } */
 .shadow{
   -webkit-text-stroke: 3px white;
-  
   /* font-size: 15vw;
   font-weight: 700;
   color:black; */
@@ -47,4 +46,25 @@ header ul li{
   font-weight: 600;
   color: #fff;
   width: 130px;
+}
+
+/* resume */
+.resume{
+  padding: 100px;
+}
+.resume-title .shadow-re{
+  -webkit-text-stroke: 3px white;
+}
+.resume-title .big{
+  position: absolute;
+  top: -10px;
+  left: 450px;
+  
+  font-size: 7vw;
+  color: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+  font-weight: 900;
+}
+.resume-title{
+  position: relative;
 }
