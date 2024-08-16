@@ -81,6 +81,7 @@ header ul li{
 /* contact */
 .contact{
   padding: 80px;
+  /* transform: matrix(1, 0, 0, 1, 0, 0); */
 }
 .contact-title .shadow-re{
   -webkit-text-stroke: 3px white;
