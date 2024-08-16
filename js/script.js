@@ -1,6 +1,6 @@
 $(function() {
     $('.selector').animatedHeadline({
-        animationType: 'type'
+        animationType: 'rotate-3'
     });
 })
 
