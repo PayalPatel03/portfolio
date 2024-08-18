@@ -2,7 +2,7 @@ body{
   background-color: #070707;
 }
 /* HEADER */
-
+  /* background: linear-gradient(45deg,#4f1919,#ff3333); */
 .navbar-brand{
   font-size: x-large;
 }
@@ -49,6 +49,48 @@ header ul li{
 }
 
 /* resume */
+.resume-items{
+  position: relative;
+}
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.resume-items::after, .resume-items::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle),transparent 70%, #D5ED9F);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50% ;
+  z-index: -1;
+  padding: 10px !important;
+  animation: 3s spin linear infinite;
+}
+.resume-items::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+
+  }
+}
+
+
+
+
+
+
+
+
 .resume{
   padding: 100px;
 }
