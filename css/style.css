@@ -80,17 +80,8 @@ header ul li{
   }
   to{
     --angle: 360deg;
-
   }
 }
-
-
-
-
-
-
-
-
 .resume{
   padding: 100px;
 }
@@ -174,7 +165,7 @@ form{
   position: relative;
 }
 .col-12 .work-content a img{
-  height: 300px;
+  height: 250px;
 }
 /* .col-12 .work-content:hover{
   background: #ffbd39 !important;
