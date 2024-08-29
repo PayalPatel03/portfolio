@@ -4,45 +4,6 @@ body{
 ::placeholder{
   color: pink !important;
 }
-
-
-
-@keyframes appear{
-  from{
-    opacity: 0;
-    transform: translateX(-100px);
-    /* clip-path: inset(100% 100% 0 0); */
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-    /* clip-path: inset(0 0 0 0); */
-  }
-}
-
-.about{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-.resume{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-.work{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-.contact{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-
-/* HEADER */
-  /* background: linear-gradient(45deg,#4f1919,#ff3333); */
 .navbar-brand{
   font-size: x-large;
 }
@@ -61,37 +22,12 @@ header ul li{
   height: 600px;
   width: 600px;
 }
-/* .about{
-  padding: 100px;
-} */
-.shadow{
-  -webkit-text-stroke: 3px white;
-  /* font-size: 15vw;
-  font-weight: 700;
-  color:black; */
-}
-.heading-section{
-  position: relative;
-}
-.heading-section h1.big {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  font-size: 7vw;
-  color: rgba(255, 255, 255, 0.1);
-  z-index: -1;
-  font-weight: 900;
-}
  ul.about-info li span:first-child {
   font-weight: 600;
   color: #fff;
   width: 130px;
 }
-
-/* resume */
-
-
-
+/* text demo */
 .demo{ background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(247,87,0,1) 0%, rgba(249,0,0,1) 90.1% ); }
 .text-effect{
     color: #fff;
@@ -147,13 +83,7 @@ header ul li{
 @media only screen and (max-width: 576px){
     .text-effect{ font-size: 50px; }
 }
-
-
-
-
-
-
-
+/* resume */
 .resume-items{
   position: relative;
 }
@@ -216,7 +146,6 @@ header ul li{
 .resume-items:hover .text-white{
   color: black !important;
 }
-
 /* skill */
 :root{
   --timeline-color1: #7526CC;
@@ -351,13 +280,9 @@ header ul li{
       display: none;
   }
 }
-
-
-
 /* contact */
 .contact{
   padding: 80px;
-  /* transform: matrix(1, 0, 0, 1, 0, 0); */
 }
 .contact-title .shadow-re{
   -webkit-text-stroke: 3px white;
@@ -439,10 +364,6 @@ form{
 .col-12 .work-content a img{
   height: 250px;
 }
-/* .col-12 .work-content:hover{
-  background: #ffbd39 !important;
-  opacity: 0.7;
-} */
 @property --angle{
   syntax: "<angle>";
   initial-value: 0deg;
@@ -476,4 +397,3 @@ form{
     --angle: 360deg;
   }
 }
-
