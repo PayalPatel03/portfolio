@@ -148,8 +148,8 @@ header ul li{
 }
 /* skill */
 :root{
-  --timeline-color1: #7526CC;
-  --timeline-color2: #3D6AE5;
+  --timeline-color1: #343A40;
+  --timeline-color2: #495057;
 }
 .main-timeline{ font-family: 'Poppins', sans-serif; }
 .main-timeline:after{
@@ -239,16 +239,16 @@ header ul li{
   left: 0;
 }
 .main-timeline .timeline:nth-child(4n+2){
-  --timeline-color1: #EA0093;
-  --timeline-color2: #B207A1;
+  --timeline-color1: #6C757D;
+  --timeline-color2: #ADB5BD;
 }
 .main-timeline .timeline:nth-child(4n+3){
-  --timeline-color1: #57c00c;
-  --timeline-color2: #1ac94e;
+  --timeline-color1: #6C757D;
+  --timeline-color2: #ADB5BD;
 }
 .main-timeline .timeline:nth-child(4n+4){
-  --timeline-color1: #FE7F25;
-  --timeline-color2: #F9412B;
+  --timeline-color1: #343A40;
+  --timeline-color2: #495057;
 }
 @media screen and (max-width:767px){
   .main-timeline .timeline,
