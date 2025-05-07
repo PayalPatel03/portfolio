@@ -7,12 +7,40 @@ body{
 .navbar-brand{
   font-size: x-large;
 }
-header ul li a:hover{
+/*header*/
+/* header ul li a:hover{
   text-decoration: underline yellow;
-}
+} */
 header ul li{
   padding: 15px;
 }
+.nav-link-underline {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link-underline::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(228, 224, 7);
+  transition: width 0.3s ease;
+}
+
+.nav-link-underline:hover::after {
+  width: 100%;
+}
+
+.nav-link-underline:hover {
+  color: #ffc107 !important; /* Optional: change color on hover */
+}
+
 /* Home-section */
 .home-section .container{
   padding: 150px;
