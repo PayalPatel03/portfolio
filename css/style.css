@@ -301,39 +301,50 @@ form{
 .col-12 .work-content a img{
   height: 250px;
 }
-/* @property --angle{
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-} */
+.tilt-card {
+  background: #1e1e2f;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  transition: transform 0.15s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  will-change: transform;
+  cursor: pointer;
+}
+
+.tilt-card:hover {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 0 0 20px rgba(100, 255, 255, 0.2);
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.icon-links {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.icon-links a {
+  color: #00ffe7;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.icon-links a:hover {
+  color: #ff2fd3;
+}
+
 .work-content{
   position: relative;
 }
-/* .work-content::after,.work-content::before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: conic-gradient(from var(--angle),transparent 70%, #D5ED9F);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50% ;
-  z-index: -1;
-  padding: 10px !important;
-  animation: 3s spin linear infinite;
-} */
-/* .work-content::before{
-  filter: blur(1.5rem);
-  opacity: 0.5;
-} */
-/* @keyframes spin{
-  from{
-    --angle: 0deg;
-  }
-  to{
-    --angle: 360deg;
-  }
-} */
+
  .color{
   color: #00bcd4;
  }
