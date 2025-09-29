@@ -215,6 +215,19 @@ header ul li{
       font-size: 48px;
       margin-bottom: 10px;
     }
+    .skill-card img {
+  max-width: 96px;  /* set consistent width */
+  max-height: 96px; /* set consistent height */
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+.node-icon {
+  max-width: 96px;
+  max-height: 96px;
+  object-fit: contain;
+}
+
    
 /* contact */
 .contact{
@@ -351,6 +364,17 @@ form{
  .colorr{
   background-color: #00bcd4;
  }
+ .project-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.project-tech {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
  /*foot*/
  footer.ftco-footer {
   background: linear-gradient(135deg, #141e30, #243b55);
